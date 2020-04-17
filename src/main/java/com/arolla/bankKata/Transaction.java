@@ -2,7 +2,6 @@ package com.arolla.bankKata;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import java.util.Objects;
 
 public class Transaction {
 

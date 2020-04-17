@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class TransactionTest {
 
     @Test
-    public void shoudPrintTransaction() {
+    public void shouldPrintTransaction() {
         //Arrange
 
         //Act

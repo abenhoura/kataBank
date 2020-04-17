@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class ClockTest {
 
     @Test
-    public void shoud_format_date() {
+    public void should_format_date() {
         //Arrange
         Clock clock = new Clock();
 

@@ -15,7 +15,7 @@ public class StatementTest {
     Console console ;
 
     @Test
-    public void shoudPrintWhenEmptyTransactions() {
+    public void shouldPrintWhenEmptyTransactions() {
         //Arrange
         Statement statement = new Statement(console);
 

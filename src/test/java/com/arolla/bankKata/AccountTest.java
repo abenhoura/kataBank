@@ -19,7 +19,7 @@ public class AccountTest {
 
 
     @Test
-    public void shoudAddTransactionWhenDeposit() {
+    public void shouldAddTransactionWhenDeposit() {
         //Arrange
         Account account = new Account(statement, clock);
         when(clock.date()).thenReturn("01/01/2020");
@@ -32,7 +32,7 @@ public class AccountTest {
     }
 
     @Test
-    public void shoudAddTransactionWhenWithdrawal() {
+    public void shouldAddTransactionWhenWithdrawal() {
         //Arrange
         Account account = new Account(statement, clock);
         when(clock.date()).thenReturn("01/01/2020");
@@ -45,7 +45,7 @@ public class AccountTest {
     }
 
     @Test
-    public void shoudCallPrintStatment() {
+    public void shouldCallPrintStatment() {
         //Arrange
         Account account = new Account(statement, clock);
 
