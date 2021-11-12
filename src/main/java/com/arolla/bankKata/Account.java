@@ -20,5 +20,7 @@ public class Account {
     public void printStatement(){
         statement.print();
     }
-
+    public static void main(String[] args){
+        System.out.println("hello my program is run");
+    }
 }
